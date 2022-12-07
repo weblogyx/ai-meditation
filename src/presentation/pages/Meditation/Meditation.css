@@ -1,0 +1,34 @@
+.meditation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.meditation img{
+    width: 15rem;
+    height: auto;
+}
+.meditation input {
+    width: 70vw;
+}
+.meditation .happyPlaceText {
+    padding: 0 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+}
+
+@media (orientation: landscape) {
+    .meditation .mainInstruction {
+        background-color: rgba(0, 0, 0, 0.85);
+        padding: 1rem;
+    }
+    .meditation input {
+        width: 30vw;
+    }
+    .meditation .happyPlaceText {
+        padding: 0 25vw;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1rem;
+    }
+  }
